@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #EAEAEA   ;
+    height: 100%;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}

@@ -1,0 +1,36 @@
+.yandex-go {
+    background-color: #FCE000;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.yandex-go::before {
+    content: '';
+    background-color: whitesmoke;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.yandex-go::after {
+    content: '';
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.yandex-go > p {
+    top: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}

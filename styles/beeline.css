@@ -1,0 +1,33 @@
+.beeline {
+    background-color: black;
+    height: 300px;   
+    width: 300px;   
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+.beeline::before {
+    content: '';
+    background-color: rgb(240, 240, 0);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: 60px;
+    width: 300px;
+}
+
+.beeline::after {
+    content: '';
+    background-color: rgb(240, 240, 0);
+    position: absolute;
+    bottom: 60px;
+    height: 60px;
+    width: 300px;
+}
+
+.beeline > p {
+    top: 100%;
+    position: absolute;
+}

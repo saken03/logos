@@ -1,0 +1,40 @@
+.trello {
+    /* background-color: rgb(38, 109, 214); */
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.trello::before {
+    content: '';
+    background-color: rgb(38, 109, 214);
+    height: 170px;
+    width: 75px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+.trello::after {
+    content: '';
+    background-color: rgb(38, 109, 214);
+    position: absolute;
+    height: 100px;
+    width: 75px;
+    top: 20%;
+    right: 20%;
+    border-radius: 10px;
+}
+
+.trello > p {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+}
